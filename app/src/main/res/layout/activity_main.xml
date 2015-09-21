@@ -12,7 +12,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="My Android Nanodegree Apps"
+            android:text="@string/app_name"
             android:id="@+id/titleTextView"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
@@ -21,7 +21,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="By Jorge Plaza"
+            android:text="@string/app_made_by"
             android:id="@+id/subtitleTextView"
             android:layout_below="@+id/titleTextView"
             android:layout_marginTop="5dp"
@@ -31,7 +31,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Spotify Streamer"
+            android:text="@string/spotify_streamer"
             android:id="@+id/spotifyButton"
             android:layout_below="@+id/subtitleTextView"
             android:layout_centerHorizontal="true"
@@ -41,7 +41,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Football Scores"
+            android:text="@string/football_scores"
             android:id="@+id/footballButton"
             android:layout_below="@+id/spotifyButton"
             android:layout_centerHorizontal="true"
@@ -51,7 +51,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Library"
+            android:text="@string/library"
             android:id="@+id/libraryButton"
             android:layout_below="@+id/footballButton"
             android:layout_marginTop="10dp"
@@ -61,7 +61,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Build It Bigger"
+            android:text="@string/build_it_bigger"
             android:id="@+id/buildItBiggerButton"
             android:layout_below="@+id/libraryButton"
             android:layout_centerHorizontal="true"
@@ -71,7 +71,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="XYZ Reader"
+            android:text="@string/xyz_reader"
             android:id="@+id/xyzReaderButton"
             android:layout_below="@+id/buildItBiggerButton"
             android:layout_centerHorizontal="true"
@@ -81,7 +81,7 @@
         <Button
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Capstone Project"
+            android:text="@string/capstone_project"
             android:id="@+id/capstoneProjectButton"
             android:layout_below="@+id/xyzReaderButton"
             android:layout_centerHorizontal="true"

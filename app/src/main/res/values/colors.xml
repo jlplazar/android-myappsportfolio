@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="btn_fg">#ffffff</color>
+    <color name="btn_bg_normal">#ff9a48</color>
+    <color name="btn_bg_pressed">#ff6600</color>
+
+    <color name="btn_special_fg">#ffffff</color>
+    <color name="btn_special_bg_normal">#0000f6</color>
+    <color name="btn_special_bg_pressed">#0000b8</color>
+
+    <color name="text_activity_title">#ff6600</color>
+    <color name="text_activity_subtitle">#ff6600</color>
+</resources>
