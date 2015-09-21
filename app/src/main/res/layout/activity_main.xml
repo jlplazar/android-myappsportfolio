@@ -1,0 +1,94 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Android Nanodegree Apps"
+            android:id="@+id/titleTextView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            style="@style/title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By Jorge Plaza"
+            android:id="@+id/subtitleTextView"
+            android:layout_below="@+id/titleTextView"
+            android:layout_marginTop="5dp"
+            android:layout_centerHorizontal="true"
+            style="@style/subtitle" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Spotify Streamer"
+            android:id="@+id/spotifyButton"
+            android:layout_below="@+id/subtitleTextView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:onClick="displayToast" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Football Scores"
+            android:id="@+id/footballButton"
+            android:layout_below="@+id/spotifyButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:onClick="displayToast" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Library"
+            android:id="@+id/libraryButton"
+            android:layout_below="@+id/footballButton"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:onClick="displayToast" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Build It Bigger"
+            android:id="@+id/buildItBiggerButton"
+            android:layout_below="@+id/libraryButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:onClick="displayToast" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="XYZ Reader"
+            android:id="@+id/xyzReaderButton"
+            android:layout_below="@+id/buildItBiggerButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:onClick="displayToast" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Capstone Project"
+            android:id="@+id/capstoneProjectButton"
+            android:layout_below="@+id/xyzReaderButton"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            style="@style/button.special"
+            android:onClick="displayToast" />
+
+        </RelativeLayout>
+
+</ScrollView>
